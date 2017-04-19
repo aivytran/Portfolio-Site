@@ -62,7 +62,7 @@ h6 {
 }
 
 .bg-light-gray {
-    background-color: #e5f0ed;
+    background-color: rgba(229, 239, 237, 0.67);
 }
 
 .bg-darkest-gray {
@@ -268,14 +268,14 @@ fieldset[disabled] .btn-xl.active {
 header {
     text-align: center;
     color: #b77079;
-    background-attachment: scroll;
+    /*background-attachment: scroll;
     background-image: url('{{ site.baseurl }}/img/header-bg.jpg');
     background-position: center center;
     background-repeat: none;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     background-size: cover;
-    -o-background-size: cover;
+    -o-background-size: cover;*/
 }
 
 header .intro-text {
@@ -338,9 +338,9 @@ section h3.section-subheading {
     margin-bottom: 21px;
     text-transform: none;
     font-family: {{ site.data.template.font.secondary }};
-    font-size: 16px;
+    font-size: 21px;
     font-style: italic;
-    font-weight: 400;
+    font-weight: 500;
 }
 
 @media(min-width:768px) {
@@ -700,14 +700,12 @@ aside.clients img {
 }
 
 section#contact {
-    background-color: #222;
-    background-image: url('{{ site.baseurl }}/img/map-image.png');
-    background-position: center;
-    background-repeat: no-repeat;
+    /*background-image: url('{{ site.baseurl }}/img/map-image.png');*/
+    background-color: rgba(229, 239, 237, 0.52);
 }
 
 section#contact .section-heading {
-    color: #fff;
+    color: #000;
 }
 
 section#contact .form-group {
@@ -925,7 +923,15 @@ p.self-intro {
 }
 
 .contact-info p {
-    font-size: 21px;
+  font-size: 21px;
+  font-weight: bold;
+  text-shadow: -3px 1px #f0d7da;
+  text-shadow: cornsilk;
+  color: #000000;
+  background-color: #f0d7da;
+  margin: 12px 404px;
+  /* width: 50%; */
+  border-radius: 39px;
 }
 
 a.navbar-brand.page-scroll {
@@ -942,4 +948,21 @@ img.fa.fa-circle.fa-stack-2x.text-primary {
 
 .me-boo span{
   margin: 0 23px;
+}
+
+html {
+  background: url('https://res.cloudinary.com/dtoyiojuy/image/upload/v1492631047/header-bg_ga1uz5.jpg') no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  z-index: 5px;
+}
+
+section#about {
+    background: #ffffff;
+}
+
+section#services {
+    background: #ffffff;
 }
