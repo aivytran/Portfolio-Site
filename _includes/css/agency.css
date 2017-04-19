@@ -303,7 +303,7 @@ header .intro-text .intro-heading {
 @media(min-width:768px) {
     header .intro-text {
         padding-top: 170px;
-        padding-bottom: 400px;
+        padding-bottom: 350px;
     }
 
     header .intro-text .intro-lead-in {
@@ -345,7 +345,7 @@ section h3.section-subheading {
 
 @media(min-width:768px) {
     section {
-        padding: 100px 0;
+        padding: 80px 0;
     }
 }
 
@@ -930,4 +930,16 @@ p.self-intro {
 
 a.navbar-brand.page-scroll {
     font-size: 0;
+}
+
+img.fa.fa-circle.fa-stack-2x.text-primary {
+    border-radius: 100%;
+}
+
+.me-boo {
+  height: 180px;
+}
+
+.me-boo span{
+  margin: 0 23px;
 }
