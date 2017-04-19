@@ -1,0 +1,13 @@
+---
+title: BarCrawler
+subtitle: Web Application
+layout: default
+modal-id: 1
+date: 2014-07-18
+img: barcrawler.gif
+thumbnail: barview.png
+alt: image-alt
+project-date: March 2017
+category: Web Development
+description: A combination of Yelp and Google Map for bar hopping planning.
+---

@@ -1,0 +1,28 @@
+<section id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 text-center">
+                    <h2 class="section-heading">Contact Me!</h2>
+                    <h3 class="section-subheading text-muted"></h3>
+                </div>
+            </div>
+            <div class="contact-info">
+              <p>Phone: (818)-445-9212</p>
+              <p>Email: aivytran@berkeley.edu</p>
+            </div>
+            <footer>
+                  <div class="container">
+                      <div class="row">
+                          <div class="social-icon">
+                              <ul class="list-inline social-buttons">
+                                  {% for network in site.social %}
+                                  <li><a href="{{ network.url }}"><i class="fa fa-{{ network.title }}"></i></a>
+                                  </li>
+                                  {% endfor %}
+                              </ul>
+                          </div>
+                      </div>
+                  </div>
+              </footer>
+        </div>
+    </section>
