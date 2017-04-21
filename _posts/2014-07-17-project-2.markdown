@@ -3,13 +3,15 @@ title: Owlie the GiftBot
 subtitle: Facebook Messenger Bot
 layout: default
 modal-id: 2
-date: 2014-07-17
-img: owlie.gif
+live: https://aivytran.github.io/owlie/
+video: http://res.cloudinary.com/candycanetrain/video/upload/v1491812527/official1small_wiyl6c.mp4
 thumbnail: owlie.png
 alt: image-alt
 project-date: April 2014
 client: Start Bootstrap
 category: Bot
-description: Lorem ipsum dolor sit amet, usu cu alterum nominavi lobortis. At duo novum diceret. Tantas apeirian vix et, usu sanctus postulant inciderint ut, populo diceret necessitatibus in vim. Cu eum dicam feugiat noluisse.
-
+git: https://github.com/aivytran/owlie
+short-description: The interactive chatbot that gives gift suggestions and reminds you to send gifts to special ones. Save you the headache of getting gifts!
+description: Owlie is built
+tech: owlietech.png
 ---

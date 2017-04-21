@@ -14,22 +14,27 @@
                         <div class="modal-body">
                             <h2>{{ post.title }}</h2>
                             <hr class="star-primary">
-                            <img src="img/portfolio/{{ post.img }}" class="img-responsive img-centered" alt="{{ post.alt }}">
-                            <p>{{ post.description }}</p>
+                            <video controls autoplay loop class="project-video">
+                              <source src="{{ post.video }}" type="video/mp4">
+                              <source src="img/portfolio/olwie.mp4" type="video/mp4">
+                              Your browser does not support the video tag.
+                            </video>
                             <ul class="list-inline item-details">
-                                <li>Client:
-                                    <strong><a href="http://startbootstrap.com">{{ post.client }}</a>
+                                <li>
+                                    <strong><a target="_blank" href="{{ post.live }}">Live Link</a>
                                     </strong>
                                 </li>
-                                <li>Date:
-                                    <strong><a href="http://startbootstrap.com">{{ post.project-date }}</a>
-                                    </strong>
-                                </li>
-                                <li>Service:
-                                    <strong><a href="http://startbootstrap.com">{{ post.category }}</a>
+                                <li>
+                                    <strong><a target="_blank" href="{{ post.git }}">GitHub</a>
                                     </strong>
                                 </li>
                             </ul>
+                            <p class="description-text">{{ post.short-description }}</p>
+                            <br/>
+                            <h class="description-text">{{ post.description }}</h>
+                            <br/>
+                            <img src="img/portfolio/{{post.tech}}" alt="" class="project-tech">
+                            <br/>
                             <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
                         </div>
                     </div>
