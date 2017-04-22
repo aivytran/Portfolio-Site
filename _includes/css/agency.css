@@ -923,14 +923,10 @@ p.self-intro {
 }
 
 .contact-info p {
-  font-size: 21px;
+  font-size: 23px;
   font-weight: bold;
   text-shadow: -3px 1px #f0d7da;
-  text-shadow: cornsilk;
   color: #000000;
-  background-color: #f0d7da;
-  margin: 12px 404px;
-  /* width: 50%; */
   border-radius: 39px;
 }
 
