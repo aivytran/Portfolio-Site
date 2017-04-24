@@ -3,14 +3,14 @@ title: Owlie the GiftBot
 subtitle: Facebook Messenger Bot
 layout: default
 modal-id: 2
-live: https://aivytran.github.io/owlie/
+live: https://aivytran.github.io/Owlie-ChatBot/
 video: http://res.cloudinary.com/candycanetrain/video/upload/v1491812527/official1small_wiyl6c.mp4
 thumbnail: owlie.png
 alt: image-alt
 project-date: April 2014
 client: Start Bootstrap
 category: Bot
-git: https://github.com/aivytran/owlie
+git: https://github.com/aivytran/Owlie-ChatBot
 short-description: The interactive chatbot that gives gift suggestions and reminds you to send gifts to special ones. Save you the headache of getting gifts!
 description: Owlie is built using wit.ai, a Natural Language Processor with machine learning to process user's message into actionable data, Facebook Messenger API to render response, and Express.JS to connect all pieces together. <br/><br/> Owlie is a gift expert who can give gift suggestions based on preferences. Gift suggestions is showed through a horizontal scrollable carousel, where users can see product's image, short description, price, shipping information, and purchase button. Users then can choose to purchase or view more suggestions. Not only a gift expert, Owlie is also good at reminding for special events. Users have an option to set reminder, and Owlie will send them a reminder message on the date of event. Throughout the chat, there are persistent menu, quick replies, and option templates to help users navigate. <br/><br/> Owlie is still an ongoing experience. For now, Owlie can only understand text message, but she is learning to understand voice. So look forward to the voice control version!  <br/><br/> Check Owlie out and maybe she can help you make your special ones happy! ;)
 tech: owlietech.png
