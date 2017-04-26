@@ -3,7 +3,7 @@ title: BarCrawler
 subtitle: Web Application
 layout: default
 modal-id: 1
-live: http://barcrawler.aivytran.com/
+live: http://barcrawler.aivytran.com/?utm_source=barcrawler&utm_medium=portfolio
 video: http://res.cloudinary.com/dtoyiojuy/video/upload/c_scale,w_720/v1492658882/barcrawler_h8snjc.mp4
 thumbnail: barview.png
 alt: image-alt

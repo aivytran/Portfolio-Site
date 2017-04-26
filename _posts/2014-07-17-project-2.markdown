@@ -3,7 +3,7 @@ title: Owlie the GiftBot
 subtitle: Facebook Messenger Bot
 layout: default
 modal-id: 2
-live: https://aivytran.github.io/Owlie-ChatBot/
+live: https://owlie.site/?utm_source=owlie&utm_medium=portfolio
 video: http://res.cloudinary.com/candycanetrain/video/upload/v1491812527/official1small_wiyl6c.mp4
 thumbnail: owlie.png
 alt: image-alt
