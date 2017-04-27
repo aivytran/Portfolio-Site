@@ -701,7 +701,7 @@ aside.clients img {
 
 section#contact {
     /*background-image: url('{{ site.baseurl }}/img/map-image.png');*/
-    background-color: rgba(229, 239, 237, 0.52);
+    background-color: rgb(229, 239, 237);
 }
 
 section#contact .section-heading {
