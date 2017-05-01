@@ -1,3 +1,3 @@
 # My portfolio website
 
-[Live Link](www.aivytran.com)
+[Live Link](http://www.aivytran.com/?utm_source=portfolio&utm_medium=github)
