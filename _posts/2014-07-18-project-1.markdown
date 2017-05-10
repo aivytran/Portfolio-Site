@@ -1,6 +1,6 @@
 ---
 title: BarCrawler
-subtitle: Web Application
+subtitle: Full Stack Web Application
 layout: default
 modal-id: 1
 live: http://barcrawler.aivytran.com/?utm_source=barcrawler&utm_medium=portfolio
