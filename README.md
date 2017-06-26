@@ -1,3 +1,3 @@
-# My portfolio website
+# My personal website
 
 [Live Link](www.aivytran.com)
